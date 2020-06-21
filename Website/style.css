@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'SCRIPTBL';
+	src: url('./Text/SCRIPTBL.eot');
+	src: local('SCRIPTBL'), url('./Text/SCRIPTBL.woff') format('woff'), url('./Text/SCRIPTBL.ttf') format('truetype');
+}
+nav{
+	border-bottom:4px solid black;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+.navbar{
+	/*padding: 15px;*/
+}
+.navbar-brand{
+font-family: 'SCRIPTBL',cursive;
+font-size: 2.5em;
+}
+.nav-link{
+font-family:"Calibri";
+font-size:1.5em;
+color: black;
+}
+#SignIn{
+border-width: .1rem;
+font-size: 1.2rem;
+border-color: #0ba6ff;
+color:#0ba6ff;
+}
+
+#green{
+	background-color: #cdf835;
+	width: 50%;
+	height: 575px;
+}
+#blue{
+	position: absolute;
+	background-color: #0ba6ff;
+	width: 70%;
+	height: 300px;
+	top:70px;
+	right: 70px;
+}
+#imgHolder{
+	background:url("./images/983794168.jpg");
+	background-size: 100% 100%;
+	position: absolute;
+	width: 80%;
+	height: 100%;
+	top: 15%;
+	left: 10%;
+}
+#Custom-bluediv{
+	background-color: #5a48f5;
+	margin-top: -4%;
+}
+#what{
+letter-spacing: -2px;
+line-height: 1em;
+word-spacing: -2px;
+font-weight: 500;
+}
+#getPara{
+
+	font-size: 1.7em;
+	font-weight: 600;
+	/*word-spacing: 10px;*/
+}
+#Custom-blackdiv{
+	background-color: #000000;
+	margin-top: -4%;
+}
+.col-sm-6{
+text-align: center;
+}
+#Custom-blackdiv li{
+list-style: none;
+margin-top: 3%;
+/*font-size: 1em;*/
+}
+#Custom-blackdiv ul{
+	font-family: Roboto;
+	color: white;
+	font-size: 1.3em;
+	/*font-size: */
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+/*#Custom-blackdiv .col-md-4{
+text-align: left;
+}*/
+@media (max-width: 1000px){
+#div1{
+	align-self: center;
+}
+#green{
+	align-content: center;
+	background-color: #cdf835;
+	width: 50%;
+	height: 575px;
+}
+#blue{
+	position: absolute;
+	background-color: #0ba6ff;
+	width: 70%;
+	height: 300px;
+	top:70px;
+	right: 70px;
+}
+#imgHolder{
+	/*background:url("./images/983794168.jpg");*/
+	/*background-size: 100% 100%;*/
+	position: absolute;
+	width: 80%;
+	height: 100%;
+	top: 15%;
+	left: 10%;
+}
+}
